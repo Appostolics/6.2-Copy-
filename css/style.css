@@ -1,0 +1,24 @@
+.answer{
+    display: none;
+}
+h3{
+    color:aquamarine;
+}
+p{
+    color:cadetblue;
+}
+button{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: azure;
+    color:cornflowerblue
+}
+@media (max-width: 600px){
+    body{
+        padding: 10px;
+    }
+    button{
+        width:100%;
+    }
+}
+    
