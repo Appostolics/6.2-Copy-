@@ -7,3 +7,10 @@ function toggleAnswer(id) {
     else{answer.style.display='none'
     }
 }
+
+function sharePage(){
+    navigator.share({
+        title:"4 рівень ",
+        url:window.location.href
+    })
+}
